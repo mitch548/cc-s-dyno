@@ -5,4 +5,6 @@
 {!announce {#nick-requests} **New nickname request**
 User: {user} ({user.id})
 Current nickname: {user.nick}
-Requested nickname: $1+}
+Requested nickname: $1+
+To change this user's nickname to the one requested,
+run ?setnick {user.id} $1+}

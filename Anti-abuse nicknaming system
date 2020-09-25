@@ -1,0 +1,8 @@
+{delete}
+{require:Known Member}
+{!announce {channel} {user}, your response has been recorded.}
+{respond:#nick-requests}
+{!announce {#nick-requests} **New nickname request**
+User: {user} ({user.id})
+Current nickname: {user.nick}
+Requested nickname: $1+}
